@@ -196,3 +196,14 @@ if(document.getElementById("bookingForm")){
      document.getElementById("bookingForm").classList.remove("d-none");
    }
 }
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault(); // prevent actual submission
+  document.getElementById("contactFormWrapper").classList.add("d-none");
+  document.getElementById("thankYouCard").classList.remove("d-none");
+});
+
+function resetForm() {
+  document.getElementById("contactForm").reset();
+  document.getElementById("thankYouCard").classList.add("d-none");
+  document.getElementById("contactFormWrapper").classList.remove("d-none");
+}
