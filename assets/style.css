@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+h1,
+h2 {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 00;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+h1 {
+    font-size: 70px;
+}
+h3 {
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.sign{
+    font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+footer a {
+    color: white;
+}
+
+.navbar {
+    background-color: goldenrod;
+}
+
+.mainColor {
+    color: goldenrod;
+}
+
+.tabs {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+
+.myBtn {
+    background-color: goldenrod !important;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.btnHover {
+    border: 1px solid goldenrod !important;
+}
+
+.btnHover:hover {
+    background-color: goldenrod !important;
+    color: white !important;
+}
+
+.mainContent {
+    padding-top: 200px;
+}
+
+/* swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu{
+    background-color: #F4F1EA;
+}
+.menuBox{
+    border-radius: 20px;
+}
+.menuBox p{
+    font-size: 15px;
+}
+.menuImg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.blogContent{
+left: 70px;
+top: 230px;
+border-radius: 20px;
+
+}
+.tabSlider{padding-top: 200px;}
+.contact-section {
+  background: #f8f9fa;
+}
+.contact-info {
+  background: linear-gradient(135deg, #ff4d4d, #ff9900);
+}
+.contact-info h2 {
+  font-size: 2rem;
+}
+.contact-info ul li {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.contact-info i {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+.form-control:focus {
+  border-color: #ff4d4d;
+  box-shadow: 0 0 6px rgba(255, 77, 77, 0.3);
+}
+.btn-dark {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.btn-dark:hover {
+  background: #ff4d4d;
+  border-color: #ff4d4d;
+}
+.thank-you-card {
+  animation: fadeIn 0.6s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+ .stylish-form {
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+  .stylish-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  }
+  .btn-book {
+    background: linear-gradient(45deg, #000, #444);
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  .btn-book:hover {
+    background: linear-gradient(45deg, #ffb300, #ff6600);
+    color: #fff;
+    transform: scale(1.05);
+  }
+  .thank-you-card {
+    animation: fadeIn 0.6s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+  }
