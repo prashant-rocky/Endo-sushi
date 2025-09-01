@@ -104,10 +104,27 @@ footer a {
     border-top-right-radius: 20px;
 }
 .blogContent{
+width: 75%;
 left: 70px;
 top: 230px;
 border-radius: 20px;
-
+}
+@media (max-width: 768px) {
+  .blogContent {
+    position: static;
+    width: 100%;
+    left: 0;
+    margin-bottom: 50px;
+  }
+  .bogImg :nth-child(2){
+    margin-top: 68px;
+  }
+  .tabSlider{
+    text-align: center;
+  }
+  .mainContent {
+    padding-top: 300px;
+}
 }
 .tabSlider{padding-top: 200px;}
 .contact-section {
